@@ -10,7 +10,11 @@ for (i=25; i< 75; i++) {
 
 // Challenge 2
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
-// 
+var weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
+for(i=0; i < weather_options.length; i++) {
+  console.log(`The weather is going to be ${weather_options[i]}`);
+}
+
 
 // 📹 Record yourself live-coding and talking through any ONE of the challenges. 
   // The recording doesn't have to be the first time you are solving the problem. 
